@@ -106,3 +106,57 @@ graph LR
 - Redundant storage
 - Validation rules
 - Conflict resolution
+
+## hREA Implementation Plan
+
+### 1. Core REA Concepts
+- **Economic Events**: Transactions and activities that affect resources
+  - Contributions
+  - Resource transfers
+  - Service provisions
+- **Economic Resources**: Tracked items and services
+  - Material resources
+  - Immaterial resources
+  - Capabilities
+- **Economic Agents**: Participants in the network
+  - Individual contributors
+  - Organizations
+  - Projects/Ventures
+
+### 2. ValueFlow Integration
+- **Value Flows**: 
+  - Input/Output flows
+  - Transfer flows
+  - Transformation flows
+- **Planning**: 
+  - Commitments
+  - Intents
+  - Agreements
+
+### 3. Data Model Transformation
+```mermaid
+graph TD
+    A[Current Model] -->|Transform| B[hREA Model]
+    B --> C[Economic Events]
+    B --> D[Economic Resources]
+    B --> E[Economic Agents]
+    C -->|Track| F[Value Flows]
+    D -->|Participate in| F
+    E -->|Control| F
+```
+
+### 4. Implementation Phases
+1. **Phase 1: Core hREA Structure**
+   - Implementation of basic REA entities
+   - Migration of existing data model
+   - Basic ValueFlow patterns
+
+2. **Phase 2: Advanced Features**
+   - Complex value flows
+   - Planning and commitment system
+   - Advanced resource tracking
+
+3. **Phase 3: Integration**
+   - ValueFlow network compatibility
+   - Cross-network resource tracking
+   - Standardized API implementation
