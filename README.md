@@ -3,6 +3,8 @@
 ## Overview
 NRP2 is a distributed, peer-to-peer contribution logging system built using Holochain. It enables users to track and verify contributions across various projects in a decentralized manner, with advanced features for resource management and process tracking.
 
+> **Note**: The current project structure is temporary. The system will be reimplemented using the ValueFlow specification and hREA (Holochain Resource Event Architecture) framework to ensure standardized resource and event tracking across the network.
+
 ## Key Features
 - **Contextual Work Management**
   - Project tracking and organization
