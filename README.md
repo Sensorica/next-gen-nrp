@@ -1,7 +1,9 @@
 # Holochain Network Resource Planning 2.0 (NRP2)
 
 ## Overview
-NRP2 is a distributed, peer-to-peer contribution logging system built using Holochain. It enables users to track and verify contributions across various projects in a decentralized manner, with advanced features for resource management and process tracking.
+NRP2 is a distributed, peer-to-peer contribution logging system built using Holochain. It is the next generation implementation of [Sensorica's original Network Resource Planning system](https://github.com/Sensorica/VerdunNRP), which was developed in collaboration with Lynn Foster and Bob Haugen, the creators of ValueFlow and hREA. While the original NRP served as a prototype for implementing Value Network principles, NRP2 represents a full implementation of ValueFlow specification and hREA framework, combined with the comprehensive toolset of the original NRP.
+
+This system is specifically designed for Open Value Networks (OVN), enabling users to track and verify contributions across various projects in a decentralized manner, with advanced features for resource management and process tracking.
 
 > **Note**: The current project structure is temporary. The system will be reimplemented using the ValueFlow specification and hREA (Holochain Resource Event Architecture) framework to ensure standardized resource and event tracking across the network.
 
