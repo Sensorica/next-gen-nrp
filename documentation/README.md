@@ -17,6 +17,9 @@ Welcome to the documentation for the Holochain Network Resource Planning 2.0 sys
 - [Getting Started](./user-guide/getting-started.md) - Setup and basic usage
 - [Features](./user-guide/features.md) - Detailed feature documentation
 
+### 🎯 Use Cases
+- [Agro-biology](./use-cases/agro-biology.md) - P2P Seed industry implementation with NFT labels
+
 ## Quick Links
 - [GitHub Repository](https://github.com/your-repo/holochain-nrp-2)
 - [Issue Tracker](https://github.com/your-repo/holochain-nrp-2/issues)
