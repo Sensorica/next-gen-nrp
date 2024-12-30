@@ -8,7 +8,7 @@ The P2P Seed industry represents a practical application of the Holochain Networ
 
 ### Economic Forces Impact on Biodiversity
 
-The seed industry is currently influenced by two opposing economic forces. The first force, represented by Big Agro, actively contributes to the destruction of biodiversity through centralized control of seed varieties, standardization of agricultural practices, and patent-driven seed development. This approach has led to a significant reduction in crop genetic diversity over time.
+The seed industry is currently influenced by two opposing economic forces. The first force, represented by Big Agro, actively contributes to the destruction of biodiversity through centralized control of seed quality and adaptation to local conditions, standardization of agricultural practices, and patent-driven seed development. This approach has led to a significant reduction in crop genetic diversity over time.
 
 In contrast, an emerging economic force, though not yet fully mature, works to enrich biodiversity. This force operates through P2P seed sharing and development, enabling local adaptation of varieties while preserving traditional and indigenous knowledge. The community-driven seed selection process ensures the maintenance and enhancement of genetic diversity.
 
