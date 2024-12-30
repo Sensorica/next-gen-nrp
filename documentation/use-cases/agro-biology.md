@@ -20,7 +20,7 @@ The integration between local and global aspects creates a unique dynamic where 
 A significant expertise gap exists between geneticists, nurseries, and cultivators in the current system. To bridge this gap, robust knowledge transfer mechanisms and skill validation systems are essential. The implementation of experience tracking and certification processes ensures quality control and maintains professional standards across the industry.
 
 ### Blockchain Integration
-The integration of blockchain technology, particularly through NFTs, provides a reliable quality guarantee system for seeds. These NFTs serve as digital receipts, with each certification acting as proof of seed variety purchase. The NFT contract system automatically distributes funds among certification contributors while maintaining a transparent tracking system for seed lineage.
+The integration of blockchain technology, particularly through NFTs, provides a reliable quality guarantee system for seeds. These NFTs serve as digital receipts, with each certification acting as proof of seed quality and adaptation to local conditions purchase. The NFT contract system automatically distributes funds among certification contributors while maintaining a transparent tracking system for seed lineage.
 
 The implementation of smart contracts manages transactions and provides guarantees to buyers. These contracts include escrow systems for buyer protection, fraud prevention mechanisms, and automated fund distribution. The system ensures quality guarantee enforcement through automated processes, protecting both nurseries and cultivators as end clients.
 
