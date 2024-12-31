@@ -27,6 +27,17 @@ The implementation of smart contracts manages transactions and provides guarante
 ### Holochain Implementation
 Holochain technology enables effective peer-to-peer contribution review through transparent validation processes and community-driven quality control. This distributed knowledge sharing system ensures the integrity of the seed development process. The information storage system, built on Open Science principles, provides decentralized data management with secure record keeping and version control of seed development processes.
 
+#### Economic flow with hREA and ValueFlows
+
+The implementation of this system leverages Holochain's agent-centric architecture to create a truly distributed and resilient network. For modeling the economic value flow of contributions, the system implements hREA (Holochain Resource Event Agent) and ValueFlows specifications. This provides a standardized framework for:
+
+- Tracking and valuing seed contributions
+- Managing resource flows between participants
+- Recording economic events and planning
+- Defining and managing relationships between agents
+
+These specifications ensure interoperability with other Holochain applications while providing robust economic coordination capabilities essential for the P2P seed industry.
+
 ### DAO Extension Functionalities
 
 #### Treasury Fund Management
