@@ -3,6 +3,7 @@
 ## Installation
 
 ### Prerequisites
+
 1. **Rust Environment**
    - Latest stable Rust toolchain
    - Cargo package manager
@@ -14,13 +15,16 @@
    - HAPP development tools
 
 ### Building the Project
+
 1. Clone the repository
+
 ```bash
 git clone https://github.com/your-repo/holochain-nrp-2
 cd holochain-nrp-2
 ```
 
 2. Build the project
+
 ```bash
 cargo build --release
 ```
@@ -28,6 +32,7 @@ cargo build --release
 ## Basic Usage
 
 ### 1. Creating a Context
+
 ```rust
 // Example of creating a new project context
 let project_context = Context {
@@ -41,6 +46,7 @@ let project_context = Context {
 ```
 
 ### 2. Managing Processes
+
 ```rust
 // Example of creating a process
 let process = Process {
@@ -52,6 +58,7 @@ let process = Process {
 ```
 
 ### 3. Resource Management
+
 ```rust
 // Example of resource creation
 let resource = Resource {
@@ -65,11 +72,13 @@ let resource = Resource {
 ## Configuration
 
 ### 1. System Settings
+
 - Network configuration
 - Storage settings
 - Security parameters
 
 ### 2. User Preferences
+
 - Interface customization
 - Notification settings
 - Default values
@@ -77,6 +86,7 @@ let resource = Resource {
 ## Troubleshooting
 
 ### Common Issues
+
 1. **Connection Problems**
    - Check network configuration
    - Verify Holochain conductor status
@@ -88,6 +98,7 @@ let resource = Resource {
    - Review entry creation logs
 
 ### Support
+
 - GitHub Issues
 - Community Forums
 - Documentation Updates

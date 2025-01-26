@@ -1,11 +1,13 @@
 # Security Model
 
 ## Overview
+
 The Holochain Network Resource Planning 2.0 system implements a comprehensive security model based on Holochain's capability-based security system and additional custom security measures.
 
 ## Core Security Features
 
 ### Capability-Based Security
+
 1. **Agent Capabilities**
    - Role-based access control
    - Function-level permissions
@@ -19,6 +21,7 @@ The Holochain Network Resource Planning 2.0 system implements a comprehensive se
 ### Resource Protection
 
 1. **Access Levels**
+
 ```rust
 pub enum Accessibility {
     Free,                    // Open access
@@ -42,6 +45,7 @@ pub enum Accessibility {
 ## Data Security
 
 ### Entry Validation
+
 1. **Data Integrity**
    - Hash verification
    - Schema validation
@@ -53,6 +57,7 @@ pub enum Accessibility {
    - Audit logging
 
 ### Network Security
+
 1. **Peer-to-Peer Communication**
    - Encrypted data transfer
    - Node verification
@@ -66,6 +71,7 @@ pub enum Accessibility {
 ## Best Practices
 
 ### Implementation Guidelines
+
 1. **Access Control**
    - Always verify agent capabilities
    - Implement least privilege principle
@@ -77,6 +83,7 @@ pub enum Accessibility {
    - Regular security audits
 
 ### Security Recommendations
+
 1. **System Administration**
    - Regular security updates
    - Access review procedures

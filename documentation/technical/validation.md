@@ -3,6 +3,7 @@
 ## Core Validation Rules
 
 ### Context Validation
+
 1. **Context Creation**
    - Name must be unique within the system
    - Description cannot be empty
@@ -16,6 +17,7 @@
    - Context type cannot be changed after creation
 
 ### Process Validation
+
 1. **Process Creation**
    - Must have a valid name and description
    - Must have at least one resource
@@ -29,6 +31,7 @@
    - Update timestamp must be after creation timestamp
 
 ### Resource Validation
+
 1. **Resource Creation**
    - Must have unique ID within context
    - Must have valid resource type
@@ -44,6 +47,7 @@
 ## Security Validation
 
 ### Access Control
+
 1. **Agent Authorization**
    - Verify agent capabilities
    - Check access permissions
@@ -55,6 +59,7 @@
    - Follow formal procedures if restricted
 
 ### Data Integrity
+
 1. **Entry Validation**
    - Verify data structure
    - Check required fields

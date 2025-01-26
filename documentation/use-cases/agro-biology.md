@@ -17,14 +17,17 @@ The integration between local and global aspects creates a unique dynamic where 
 ## Requirements for Economic Maturity
 
 ### Expertise Management
+
 A significant expertise gap exists between geneticists, nurseries, and cultivators in the current system. To bridge this gap, robust knowledge transfer mechanisms and skill validation systems are essential. The implementation of experience tracking and certification processes ensures quality control and maintains professional standards across the industry.
 
 ### Blockchain Integration
+
 The integration of blockchain technology, particularly through NFTs, provides a reliable quality guarantee system for seeds. These NFTs serve as digital receipts, with each certification acting as proof of seed quality and adaptation to local conditions purchase. The NFT contract system automatically distributes funds among certification contributors while maintaining a transparent tracking system for seed lineage.
 
 The implementation of smart contracts manages transactions and provides guarantees to buyers. These contracts include escrow systems for buyer protection, fraud prevention mechanisms, and automated fund distribution. The system ensures quality guarantee enforcement through automated processes, protecting both nurseries and cultivators as end clients.
 
 ### Holochain Implementation
+
 Holochain technology enables effective peer-to-peer contribution review through transparent validation processes and community-driven quality control. This distributed knowledge sharing system ensures the integrity of the seed development process. The information storage system, built on Open Science principles, provides decentralized data management with secure record keeping and version control of seed development processes.
 
 #### Economic flow with hREA and ValueFlows
@@ -41,6 +44,7 @@ These specifications ensure interoperability with other Holochain applications w
 ### DAO Extension Functionalities
 
 #### Treasury Fund Management
+
 The ecosystem's financial stability is maintained through a comprehensive treasury fund system. This includes a securitization fund that acts as an insurance mechanism against bad harvest years, implementing risk mitigation strategies and community support mechanisms. The system ensures sustainable fund allocation to protect participants from agricultural uncertainties.
 
 The innovation fund component supports ongoing development in the ecosystem. This includes funding for research and development initiatives, new variety development programs, technology integration projects, and community education programs. These investments ensure the continuous evolution and improvement of the seed industry while maintaining its commitment to biodiversity and sustainable practices.

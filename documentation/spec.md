@@ -1,12 +1,15 @@
 # Holochain Network Resource Planning 2.0
 
 ## Project Overview
+
 A distributed, peer-to-peer contribution logging system built using Holochain, enabling users to track and verify contributions across various projects in a decentralized manner.
 
 ## System Architecture
 
 ### Core Components
+
 1. **Contextual Work**
+
 ```rust
 #[hdk_entry(id = "context")]
 pub struct Context {
@@ -29,6 +32,7 @@ pub enum ContextType {
 ```
 
 2. **Process**
+
 ```rust
 #[hdk_entry(id = "process")]
 pub struct Process {
@@ -603,12 +607,14 @@ pub struct ResourceItem {
 ## Technical Requirements
 
 ### Holochain Specifics
+
 - Use Holochain for peer-to-peer data synchronization
 - Implement robust validation rules
 - Ensure data consistency across peers
 - Handle offline-first scenarios
 
 ### Validation Rules
+
 1. Contribution Creation
    - Title and description must not be empty
    - Project name must be valid
@@ -627,6 +633,7 @@ pub struct ResourceItem {
    - Multiple verifications allowed per contribution
 
 ### Advanced Features
+
 1. **Collaborative Verification**
    - Multi-agent verification system
    - Weighted verification based on agent reputation
@@ -646,6 +653,7 @@ pub struct ResourceItem {
 ## Development Milestones
 
 ### Phase 1: Basic Functionality
+
 - [ ] Set up Holochain development environment
 - [ ] Define contribution entry types
 - [ ] Implement create and read operations
@@ -653,18 +661,21 @@ pub struct ResourceItem {
 - [ ] Local testing
 
 ### Phase 2: Advanced Features
+
 - [ ] Implement verification system
 - [ ] Add reporting functionality
 - [ ] Implement filtering and sorting
 - [ ] Comprehensive error handling
 
 ### Phase 3: Distributed Features
+
 - [ ] Multi-agent verification
 - [ ] Analytics and statistics
 - [ ] Dispute resolution
 - [ ] Performance optimization
 
 ## Technology Stack
+
 - Holochain
 - Rust
 - hdk (Holochain Development Kit)
@@ -684,6 +695,7 @@ nix develop
 ```
 
 ## Testing Strategy
+
 1. Unit Tests
    - Individual zome function tests
    - Validation rule verification
@@ -695,24 +707,28 @@ nix develop
    - Synchronization speed
 
 ## Performance Considerations
+
 - Minimize DHT lookups
 - Efficient data serialization
 - Optimize validation logic
 - Implement caching strategies
 
 ## Potential Challenges
+
 1. Complex verification workflows
 2. Fair dispute resolution
 3. Privacy vs. transparency balance
 4. Performance with large datasets
 
 ## Recommended Learning Resources
+
 1. Holochain Developer Documentation
 2. Rust Programming Language Book
 3. Distributed Systems Concepts
 4. WebAssembly and Wasm Runtime
 
 ## Submission Criteria
+
 1. Fully functional Holochain DNA
 2. Comprehensive test coverage
 3. Detailed documentation
@@ -720,6 +736,7 @@ nix develop
 5. Deployment instructions
 
 ## Bonus Challenges
+
 - Implement contribution templates
 - Add automated verification checks
 - Create contribution badges/achievements

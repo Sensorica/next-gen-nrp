@@ -3,6 +3,7 @@
 ## Core Data Structures
 
 ### Context
+
 The Context structure represents the environment or scope in which work is performed.
 
 ```rust
@@ -19,6 +20,7 @@ pub struct Context {
 ```
 
 #### Context Types
+
 ```rust
 pub enum ContextType {
     Project { category: String },
@@ -29,6 +31,7 @@ pub enum ContextType {
 ```
 
 ### Process
+
 The Process structure represents a workflow or series of actions.
 
 ```rust
@@ -47,6 +50,7 @@ pub struct Process {
 ```
 
 ### Resource
+
 Resources represent assets or materials used in processes.
 
 ```rust
@@ -74,6 +78,7 @@ pub struct Resource {
 ## Resource Management
 
 ### Accessibility
+
 ```rust
 pub enum Accessibility {
     Free,
@@ -89,6 +94,7 @@ pub enum Accessibility {
 ```
 
 ### Behavior Types
+
 ```rust
 pub enum Behavior {
     Material {
@@ -107,6 +113,7 @@ pub enum Behavior {
 ```
 
 ## Location Management
+
 ```rust
 pub enum Location {
     Physical {

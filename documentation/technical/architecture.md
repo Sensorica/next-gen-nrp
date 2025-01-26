@@ -1,11 +1,13 @@
 # System Architecture
 
 ## Overview
+
 The Holochain Network Resource Planning 2.0 system is built on Holochain's distributed architecture, implementing a peer-to-peer network for resource planning and contribution tracking.
 
 ## Core Components
 
 ### 1. DNA Structure
+
 ```
 nrp2_dna/
 ├── zomes/
@@ -19,6 +21,7 @@ nrp2_dna/
 ```
 
 ### 2. Entry Types
+
 ```rust
 #[unit_enum(UnitDefIndex)]
 pub enum EntryTypes {
@@ -31,6 +34,7 @@ pub enum EntryTypes {
 ## Data Flow
 
 ### 1. Context Management
+
 ```mermaid
 graph TD
     A[Agent] -->|Create Context| B[Context Entry]
@@ -40,6 +44,7 @@ graph TD
 ```
 
 ### 2. Process Flow
+
 ```mermaid
 graph LR
     A[Create Process] -->|Validation| B[Process Entry]
@@ -51,12 +56,14 @@ graph LR
 ## Component Interactions
 
 ### 1. Entry Relations
+
 - Contexts contain Processes
 - Processes manage Resources
 - Resources link to Locations
 - All entries maintain version history
 
 ### 2. Validation Flow
+
 1. Entry Creation
    - Schema validation
    - Permission checks
@@ -70,6 +77,7 @@ graph LR
 ## Technical Implementation
 
 ### 1. Core Functions
+
 - Context management
 - Process tracking
 - Resource allocation
@@ -77,6 +85,7 @@ graph LR
 - Version control
 
 ### 2. Data Storage
+
 - DHT-based storage
 - Local chain validation
 - Peer validation
@@ -85,11 +94,13 @@ graph LR
 ## Security Architecture
 
 ### 1. Access Control
+
 - Capability-based security
 - Role-based permissions
 - Context-specific access
 
 ### 2. Data Protection
+
 - Entry validation
 - Link verification
 - Update control
@@ -98,11 +109,13 @@ graph LR
 ## Network Architecture
 
 ### 1. P2P Network
+
 - DHT-based routing
 - Node discovery
 - Data synchronization
 
 ### 2. Data Distribution
+
 - Redundant storage
 - Validation rules
 - Conflict resolution
@@ -110,6 +123,7 @@ graph LR
 ## hREA Implementation Plan
 
 ### 1. Core REA Concepts
+
 - **Economic Events**: Transactions and activities that affect resources
   - Contributions
   - Resource transfers
@@ -124,16 +138,18 @@ graph LR
   - Projects/Ventures
 
 ### 2. ValueFlow Integration
-- **Value Flows**: 
+
+- **Value Flows**:
   - Input/Output flows
   - Transfer flows
   - Transformation flows
-- **Planning**: 
+- **Planning**:
   - Commitments
   - Intents
   - Agreements
 
 ### 3. Data Model Transformation
+
 ```mermaid
 graph TD
     A[Current Model] -->|Transform| B[hREA Model]
@@ -146,6 +162,7 @@ graph TD
 ```
 
 ### 4. Implementation Phases
+
 1. **Phase 1: Core hREA Structure**
    - Implementation of basic REA entities
    - Migration of existing data model
