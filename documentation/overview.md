@@ -1,8 +1,8 @@
-# Holochain Network Resource Planning 2.0 Overview
+# Holochain Next-Gen Network Resource Planning Overview
 
 ## Introduction
 
-Holochain Network Resource Planning 2.0 (NRP2) is a distributed, peer-to-peer contribution logging system built using Holochain. It represents the evolution of Sensorica's original Network Resource Planning system into a full-featured implementation based on modern distributed economic principles.
+Holochain Next-Gen Network Resource Planning (Next-Gen NRP) is a distributed, peer-to-peer contribution logging system built using Holochain. It represents the evolution of Sensorica's original Network Resource Planning system into a full-featured implementation based on modern distributed economic principles.
 
 ## Historical Context
 
@@ -10,7 +10,7 @@ The [original NRP system](https://github.com/Sensorica/VerdunNRP) was developed 
 
 ## Open Value Network Implementation
 
-NRP2 is specifically designed to support Open Value Networks (OVN), providing:
+Next-Gen NRP is specifically designed to support Open Value Networks (OVN), providing:
 
 - Transparent value creation and distribution
 - Peer-to-peer governance mechanisms

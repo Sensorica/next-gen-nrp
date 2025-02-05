@@ -19,8 +19,8 @@
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-repo/holochain-nrp-2
-cd holochain-nrp-2
+git clone https://github.com/your-repo/next-gen-nrp
+cd next-gen-nrp
 ```
 
 2. Build the project

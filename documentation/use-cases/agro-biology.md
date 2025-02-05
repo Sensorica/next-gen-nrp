@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The P2P Seed industry represents a practical application of the Holochain Network Resource Planning 2.0 (NRP2) system, combined with blockchain NFT technology. This use case demonstrates how distributed systems can support and enhance traditional agricultural practices while promoting biodiversity and sustainable farming. The system leverages NRP2's decentralized contribution tracking and peer-to-peer data synchronization capabilities, combining traditional agricultural knowledge with modern distributed technologies to enable transparent value creation and distribution in the seed industry.
+The P2P Seed industry represents a practical application of the Holochain Next-Gen Network Resource Planning (Next-Gen NRP) system, combined with blockchain NFT technology. This use case demonstrates how distributed systems can support and enhance traditional agricultural practices while promoting biodiversity and sustainable farming. The system leverages Next-Gen NRP's decentralized contribution tracking and peer-to-peer data synchronization capabilities, combining traditional agricultural knowledge with modern distributed technologies to enable transparent value creation and distribution in the seed industry.
 
 ## Observations
 

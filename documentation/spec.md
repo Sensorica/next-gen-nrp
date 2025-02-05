@@ -1,4 +1,4 @@
-# Holochain Network Resource Planning 2.0
+# Holochain Next-Gen Network Resource Planning
 
 ## Project Overview
 

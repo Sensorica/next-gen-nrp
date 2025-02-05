@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Holochain Network Resource Planning 2.0 system implements a comprehensive security model based on Holochain's capability-based security system and additional custom security measures.
+The Holochain Next-Gen Network Resource Planning system implements a comprehensive security model based on Holochain's capability-based security system and additional custom security measures.
 
 ## Core Security Features
 

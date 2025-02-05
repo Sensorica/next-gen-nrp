@@ -1,6 +1,6 @@
-# Holochain Network Resource Planning 2.0 Documentation
+# Holochain Next-Gen Network Resource Planning Documentation
 
-Welcome to the documentation for the Holochain Network Resource Planning 2.0 system. This documentation is organized into several sections for easy navigation.
+Welcome to the documentation for the Holochain Next-Gen Network Resource Planning system. This documentation is organized into several sections for easy navigation.
 
 ## Documentation Structure
 
@@ -26,5 +26,5 @@ Welcome to the documentation for the Holochain Network Resource Planning 2.0 sys
 
 ## Quick Links
 
-- [GitHub Repository](https://github.com/your-repo/holochain-nrp-2)
-- [Issue Tracker](https://github.com/your-repo/holochain-nrp-2/issues)
+- [GitHub Repository](https://github.com/your-repo/next-gen-nrp)
+- [Issue Tracker](https://github.com/your-repo/next-gen-nrp/issues)

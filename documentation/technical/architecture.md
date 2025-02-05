@@ -2,14 +2,14 @@
 
 ## Overview
 
-The Holochain Network Resource Planning 2.0 system is built on Holochain's distributed architecture, implementing a peer-to-peer network for resource planning and contribution tracking.
+The Holochain Next-Gen Network Resource Planning system is built on Holochain's distributed architecture, implementing a peer-to-peer network for resource planning and contribution tracking.
 
 ## Core Components
 
 ### 1. DNA Structure
 
 ```
-nrp2_dna/
+next_gen_nrp_dna/
 ├── zomes/
 │   ├── context/
 │   │   └── lib.rs      # Context management
